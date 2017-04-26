@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>forme validation</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="sign-in">
+
+
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lg-offset-4 col-md-offset-4 col-sm-offset-3">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">Inscription !</h3>
+						</div>
+
+						<div class="panel-body">
+
+							<form role="form" method="post" id="form">
+
+								<div class="form-group">
+									<label for="nom">Votre nom</label>
+									<input type="text" class="form-control" id="nom" placeholder="Nom">
+									<div class="help-block" id="helpNom"></div>
+								</div>
+
+								<div class="form-group">
+									<label for="nom">Votre prenom</label>
+									<input type="text" class="form-control" id="prenom" placeholder="Nom">
+									<div class="help-block" id="helpPrenom"></div>
+								</div>
+
+								<div class="form-group">
+									<label for="email">Votre adresse mail</label>
+									<input type="email" class="form-control" id="email" placeholder="Adresse email">
+									<div class="help-block" id="helpEmail"></div>
+								</div>
+
+								<div class="form-group">
+									<label for="password">Votre mot de passe</label>
+									<input type="password" class="form-control" id="password" placeholder="Mot de passe">
+									<div class="help-block" id="helpPassword"></div>
+								</div>
+
+								<div class="form-group">
+									<label for="password">Confirmer votre mot de passe</label>
+									<input type="password" class="form-control" id="password2" placeholder="Mot de passe">
+									<div class="help-block" id="helpPassword2"></div>
+								</div>
+
+								<div class="checkbox">
+									<label>
+                      <input type="checkbox" id="checkbox" value="option">
+                    j'accepte de recevoir la newsletter
+                    </label>
+								</div>
+								<button type="submit" name="submit" class="btn btn-danger btn-block" id="submit">S'inscrire <span class="glyphicon glyphicon-arrow-right"></span> </button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="js/jquery-3.2.0.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
